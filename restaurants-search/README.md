@@ -1,37 +1,37 @@
-###About My Experience with this project
+<h1>About My Experience with this project</h1>
 
 This project was build through tutorial from Digital Innovation One, on each step an technology were introduced, and I went study each documentation of them, I've learned a lot from this experience and I recomended, how to use documentation to search a specific method and how to implement it on my project, how to manager package version.I recomend using documentantions in your studies.
 
 Follow some documentations I've readed:
 
-<h1>Yarn Dependencies and versions</h1>
+Yarn Dependencies and versions
 https://classic.yarnpkg.com/en/docs/dependencies
 
-#React Hooks
+React Hooks
 https://reactjs.org/docs/hooks-intro.html
 
-#styled-components
+styled-components
 https://styled-components.com/docs
 
-#react-rating-stars-component
+react-rating-stars-component
 https://www.npmjs.com/package/react-rating-stars-component
 
-#react-slick
+react-slick
 https://www.npmjs.com/package/react-slick
 
-#@material/react-material-icon
+material/react-material-icon
 https://www.npmjs.com/package/@material/react-material-icon
 
-#material-components-web
+material-components-web
 https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md
 
-#Google Places API
+Google Places API
 https://developers.google.com/maps/documentation/javascript/places
 
-#Google Map React
+Google Map React
 https://www.npmjs.com/package/google-map-react
 
-#Lottie Animation View for React
+Lottie Animation View for React
 https://www.npmjs.com/package/react-lottie
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
