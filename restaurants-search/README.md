@@ -36,7 +36,7 @@ https://www.npmjs.com/package/react-lottie
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To setup Google API you need Add Places API to the API key's follow this steps on:
+To setup this project you need Add Places API to the API key's on Google API, follow this steps on:
 
 https://developers.google.com/maps/documentation/javascript/places
 
