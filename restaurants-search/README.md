@@ -1,6 +1,6 @@
 <h1>About My Experience with this Project</h1>
 
-This project was build through tutorial from Digital Innovation One, on each step an technology were introduced, and I went study each documentation of them, I've learned a lot from this experience and I recomended, how to use documentation to search a specific method and how to implement it on my project, how to manager package version.I recomend using documentantions in your studies.
+This project was build through tutorial from Digital Innovation One, on each step an technology were introduced, and I went study each documentation of them, I've learned a lot from this experience and I recomended, how to use documentation to search a specific method and how to implement it on my project, how to manager package version. I recomend using documentantions in your studies.
 
 Follow some documentations I've readed:
 
