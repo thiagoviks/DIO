@@ -26,7 +26,7 @@ class Twitter extends Component {
   render() {
     const { posts } = this.props;
     console.log('render', posts);
-    return <div>{posts.title}</div>;
+    return <div>tests</div>;
   }
 }
 

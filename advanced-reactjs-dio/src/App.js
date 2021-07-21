@@ -4,6 +4,7 @@ import Twitter from './Twitter';
 class App extends Component {
   state = {
     loading: false,
+    active: true,
   };
 
   componentDidMount() {
@@ -13,6 +14,13 @@ class App extends Component {
       });
     }, 3000);
   }
+
+  onRemove = () => {
+    this.setState({
+      active: false,
+    });
+  };
+
   render() {
     const posts = [
       {
@@ -24,7 +32,15 @@ class App extends Component {
         description: 'bar',
       },
     ];
-    return <Twitter posts={posts} loading={this.state.loading} />;
+
+    return (
+      <div>
+        <button onClick={this.onRemove}>Remove Component</button>
+        {this.state.active && (
+          <Twitter posts={posts} loading={this.state.loading} />
+        )}
+      </div>
+    );
   }
 }
 
