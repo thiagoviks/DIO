@@ -6,6 +6,9 @@ class Twitter extends Component {
     https://reactjs.org/docs/hooks-intro.html
   */
 
+  state = {
+    tweet: 'title',
+  };
   componentDidMount() {
     const { posts, loading } = this.props;
     console.log('componentDidMount', posts);
@@ -23,10 +26,25 @@ class Twitter extends Component {
     console.log('componentWillUnmount were removed');
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return this.state.tweet !== nextState.tweet;
+  }
+
+  tweet = () => {
+    this.setState({
+      tweet: true,
+    });
+  };
   render() {
     const { posts } = this.props;
     console.log('render', posts);
-    return <div>tests</div>;
+    return (
+      <div>
+        <button onClick={this.tweet}>Re-render</button>
+        <br />
+        tests
+      </div>
+    );
   }
 }
 
